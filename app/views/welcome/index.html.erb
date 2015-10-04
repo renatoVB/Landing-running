@@ -2,8 +2,8 @@
      <div class="container">
         <div class="row">
             <div class="col-md-">
-                <%= image_tag("logo-gustavo.jpg" , alt: "logo-gustavo" , width: '30%',class: "center-block")%> 
-                
+                <%= image_tag("logo-gustavo.jpg" , alt: "logo-gustavo" , width: '30%', class: "center-block")%>
+
             </div>
         </div>
         <!-- /.row -->
@@ -11,27 +11,34 @@
     <nav class="navbar-header">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-             <div class="collapse navbar-collapse c">
-                <ul class="nav navbar-nav">
-                    <li class="col-md">
+            <br>
+             <div class="servicios">
+                    <div class="col-md-4">
                         <h2>Prevención </h2>
-                    </li>
-                    <li class="col-md">
-                        <h2>Rehabilitación </h2>
-                    </li>
-                    <li class="col-md">
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Rehabilitacion </h2>
+                    </div>
+                    <div class="col-md-4">
                         <h2>Rendimiento </h2>
-                    </li>
-                    
-                </ul>
+                    </div>
             </div>
-        </div> 
-          <h1>Pagina en construcción</h1> 
+        </div>
+        <br>
+        <br>
+        <div class="col-md-4">
+            <h2 class="construccion">Pagina en construcción</h2>
+         </div>
+         <div class="col-md-2">
+            <%= link_to href: 'http://www.google.com/' do %>
+                <%= image_tag("fb.png") %>
+            <% end %>
+         </div>
         <!-- /.container -->
     </nav>
 
     <!-- Page Content -->
-   
+
     <!-- /.container -->
 
     <!-- jQuery -->
