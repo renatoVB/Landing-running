@@ -13,10 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
-.servicios{
-  margin-left: 120px;
-}
 .construccion{
   margin-left: 90px;
 }
